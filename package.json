@@ -1,0 +1,43 @@
+{
+  "name": "canonical-json-olpc",
+  "version": "0.0.1-alpha.1",
+  "description": "OLPC JSON canonicalization",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "json",
+    "canonical",
+    "canonicalize",
+    "canonicalization",
+    "crypto",
+    "signature",
+    "olpc"
+  ],
+  "author": {
+    "name": "Brian DeHamer",
+    "email": "bdehamer@github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdehamer/canonical-json-olpc.git"
+  },
+  "homepage": "https://github.com/bdehamer/canonical-json-olpc#readme",
+  "bugs": "https://github.com/bdehamer/canonical-json-olpc/project/issues",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}
