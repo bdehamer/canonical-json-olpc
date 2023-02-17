@@ -1,1 +1,1 @@
-export const canonicalize: (object: object) => string
+export const canonicalize: (object: any) => string
