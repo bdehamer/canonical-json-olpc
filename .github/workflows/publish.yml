@@ -24,8 +24,9 @@ jobs:
         cache: npm
     - name: Publish package
       run: |
-        npm install -g npm@latest
-        npm publish --provenance --access public
+        #npm install -g npm@latest
+        #npm publish --provenance --access public
+        npm exec npm@npm/cli#bdehamer/bundle-02 -- publish --access public --provenance
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
 
